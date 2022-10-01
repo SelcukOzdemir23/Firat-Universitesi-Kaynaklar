@@ -1,0 +1,18 @@
+clear;clc;
+ 
+n = 7;
+x = [-5,-3,-1,0,1,2,4];
+y = [-3.5,-2.5,-1.5,-1,-0.5,0,1];
+xy = x.*y
+x2 = x.^2
+xtoplam = sum(x);
+ytoplam = sum(y);
+xytoplam = sum(xy);
+x2toplam = sum(x2);
+ 
+d = [n,xtoplam;xtoplam,x2toplam];
+f = [ytoplam,xytoplam];
+
+a=f/d
+
+disp(['Denklem --> y = ', num2str(a(1)),'+ ', num2str(a(2)),'x ']);

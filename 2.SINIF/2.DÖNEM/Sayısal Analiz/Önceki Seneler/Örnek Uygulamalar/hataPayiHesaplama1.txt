@@ -1,0 +1,19 @@
+% e^0.5 hata=0.0005
+clc;clear;
+a1=0; a0=0; terim=0; x=0.5; n=0;
+hata=5e-4;
+ea=1; %yaklaþýk baðýl hata
+et=1; %doðru baðýl hata
+
+while(ea>hata)
+    
+    terim= (x^n)/factorial(n);
+    a1= a0+terim;
+    ea=abs(a1-a0)/a1;% abs mutlak deðer hesaplamak içindir
+    et= abs((exp(x)-a1)/exp(x));%exp gerçek hatayý hesaplamak için kullanýlýr
+    a0=a1;
+    n=n+1;
+end
+n
+ea
+a1

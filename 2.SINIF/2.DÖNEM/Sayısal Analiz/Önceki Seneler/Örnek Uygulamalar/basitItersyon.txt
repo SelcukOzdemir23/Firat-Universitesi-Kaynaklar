@@ -1,0 +1,15 @@
+
+% -x^3+2*x^2-x 
+x1=1; 
+tol=10^-8;
+x2=2;
+
+while abs((x2-x1)/x2)>tol
+   
+    x1=x2;
+    x2=-x1^3+2*x1^2;
+    fprintf('%f',x2);
+    
+    
+    
+end

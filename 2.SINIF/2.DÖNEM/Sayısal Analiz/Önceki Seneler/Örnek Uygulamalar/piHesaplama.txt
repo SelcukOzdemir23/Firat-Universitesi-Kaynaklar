@@ -1,0 +1,20 @@
+
+x=1;
+toplam=0;
+pi=4.0*atan(1.0);
+for n=1:130
+   a=(-1)^(n+1);
+   b=x^(2*n-1);
+   c=2*n-1
+   sonToplam=toplam+4*a*b/c;
+   gercekHata=abs((pi-sonToplam)/pi);
+   bagilHata=abs((sonToplam-toplam)/sonToplam);
+   toplam=sonToplam;
+   plot(n,gercekHata,'--r*',n,bagilHata,'--b+');
+   hold on;
+   
+   
+end
+toplam
+gercekHata
+bagilHata

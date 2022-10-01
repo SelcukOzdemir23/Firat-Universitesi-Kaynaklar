@@ -1,0 +1,7 @@
+function[c,ceq,DC,DCeq]=confungrad(x)
+c(1)=1.5+x(1)*x(2)-x(1)-x(2);
+c(2)=-x(1)*x(2)-10;
+DC=[x(2)-1,-x(2);
+    x(1)-1,x(1)];
+ceq=[];
+DCeq=[];

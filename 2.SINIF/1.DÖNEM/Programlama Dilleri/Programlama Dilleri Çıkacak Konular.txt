@@ -1,0 +1,22 @@
+Regular Expression eşleşiyor mu veya regular ifade yaz? 
++ birtane kesin var * 1 tane olmak zorunda değil
+
+İfadeye uygun gramer yazın. BNF EBNF
+
+Altprgramlal(İçeri,Dışarı,İçeri-Dışari) KESİN SORU VAR
+Başvuru ile geçirilise, değer-sonuç ile geçilirse vs şeklinde soru 
+
+Son konu özyineleme - alt programlar- bellek tutma şekilleri
+
+Her konudan bir soru gelecek
+Veri tipleri soru var. 
+
+Grameride sen oluşturursun.
+
+
+Recursive
+Semantiks
+Regular exp
+Parametre aktarma
+Veri tipleri
+Syntax parser redux parser gruba bunları atmışlardı da zaten konuların hepsi gibi

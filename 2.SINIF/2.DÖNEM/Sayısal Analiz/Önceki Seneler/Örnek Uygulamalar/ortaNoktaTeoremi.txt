@@ -1,0 +1,21 @@
+%x^3-6*x^2+13.5*x-9
+a=0.5;
+b=1.5;
+tol=10^-3;
+
+iter=0;
+while abs((a-b)/a) >tol
+    fa=a^3-6*a^2+13.5*a-9;
+    fb=b^3-6*b^2+13.5*b-9;
+    c=(a+b)/2;
+    fc=c^3-6*c^2+13.5*c-9;
+    
+    if fa*fc<0
+        b=c;
+    else
+        a=c;  
+    end
+    iter=iter+1;
+    fprintf('%d\t %f\t %f\t %f\t %f\t',iter,a,b,c,abs(a-b)/a);
+    
+end

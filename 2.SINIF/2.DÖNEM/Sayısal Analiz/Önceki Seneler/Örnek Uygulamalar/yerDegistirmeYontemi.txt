@@ -1,0 +1,25 @@
+clc;clear;
+
+% x^3-5*sin(2*x) a=1.2 b=2 hata=0.001
+
+a=1.2;
+b=2;
+tol=0.001;
+
+
+while abs((a-b)/a)>tol
+   fa=a^3-5*sin(2*a);
+   fb=b^3-5*sin(2*b);
+   c=(b*fa-a*fb)/(fa-fb);
+   fc=c^3-5*sin(2*c);
+   if fa*fc<0
+       b=c;
+   else
+       a=c;
+   end
+   c
+    
+end
+
+
+

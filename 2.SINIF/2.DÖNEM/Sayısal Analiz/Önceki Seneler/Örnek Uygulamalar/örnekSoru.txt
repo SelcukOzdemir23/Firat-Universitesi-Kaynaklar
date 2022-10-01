@@ -1,0 +1,14 @@
+sin(x)-cos(1+x^2)-1
+
+
+x0=1;
+x1=3;
+tol=1E-4;
+while abs(x1-x0)>tol
+    fx1=sin(x1)-cos(1+x1^2)-1;
+    fx0=sin(x0)-cos(1+x0^2)-1;
+    x2=x1-(fx1*(x1-x0))/(fx1-fx0);
+    x1=x2;
+    x0=x1;
+    fprintf('%f\t %f\t %f\n',x0,x1,x2); 
+end

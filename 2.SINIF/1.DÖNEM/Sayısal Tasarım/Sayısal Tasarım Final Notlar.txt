@@ -1,0 +1,37 @@
+ADC ve ADC aralıkları yazmayı unutma
+DAC soru gelmez
+Tümlemeler(1'e tümleme tersini al) - 2'ye tümleme sonu 1 ile topla++
+Final'de bazı değişim (10'lu 8'li vs) soruları gelebilir. ++
+Karnough Hamming uzaklığı++
+Eşlik biti hata durumları (fazla önemli değil ama üzerinde duruldu.)
+Kapılarda 1973 standardı kullanılıyor . Elektronik Mühendisi miyiz lan biz!
+
+Boole cebri hem sağdan sola sadeleştir hem de soldan sağa. 
+De Morgan ve Dağılma en önemlisi.
+Zorlayacak kadar zor sorular sorulmaz (12'nin canı cehenneme)
+Hesaplamalarda virgüllüler gelmeyecek.
+
+Finalde karnoguh gelebilir ima edildi.
+ 
+Kombinezyonel devreler+++
+İç yapısı gelmez , gösterim sorulabilir. 
+
+8 sayısı 7 segmentte verilir.+++
+
+Kavramsal sorular gelir , iç yapısı önemli değil.
+
+Maliyetle alakalı en bilinen soru gelebilir. +++
+
+MALİYET SLAYTINDAN KESİN SORU VAR+++
+Mmaliyet+ Mtasarım+Müretim felan (kesin gelecek)+++
+Azami süreyi dikkate al+++
+
+Eleman karmaşıklığı sorusu gelmez. ++
+big o gelmez.++
+
+Son konu iç yapı gelmez. 
+
+Mealy ve moore makinası gösterimlerini bil. (önemsedi)+++
+Durum diyagramı ayrıntılar verilir. Soru sorulacak gibi-KESİN SORULACAK . ++
+
+

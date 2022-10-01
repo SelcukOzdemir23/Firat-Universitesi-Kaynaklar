@@ -1,0 +1,7 @@
+x0=[-1,1];
+options=optimset('LargeScale', 'off');
+options=optimset(options,'GradObj','on', 'GradConstr','on');
+lb=[];
+ub=[];
+[x,fval]=fmincon(@objfungrad,x0,[],[],[],[],lb,ub,@confungrad,options)
+[c,ceq]=confungrad(x)
