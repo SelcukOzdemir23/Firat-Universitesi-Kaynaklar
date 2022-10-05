@@ -1,4 +1,4 @@
-#Firat Üniversitesi Ders Kaynaklarını İçerir
+# Firat Üniversitesi Ders Kaynaklarını İçerir
 
 # İletişim İçin:
 
