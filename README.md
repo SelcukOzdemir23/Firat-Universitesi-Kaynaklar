@@ -3,7 +3,7 @@
 # İletişim İçin:
 
 ## Selçuk Özdemir
-https://www.linkedin.com/in/sel%C3%A7uk-%C3%B6zdemir-5653141a4/
+https://www.linkedin.com/in/muserref-selcuk-ozdemir/
 ## Ahmet Yıldız:
 https://www.linkedin.com/in/ahmet-y%C4%B1ld%C4%B1z-b93169228/
 ## Muhammet Ali Şimşek:
